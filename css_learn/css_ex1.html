@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: lightblue;
+    }
+
+    p, h1 .m2{
+        color: red;
+        text-align: center;
+    }
+    p:hover{
+        color: green;
+    }
+
+    p.m2::first-letter{
+        font-family: verdana;
+        font-size: 80px;
+    }
+    p#m2 {
+        font-family: "宋体";
+        font-size: 20px;
+    }
+    p*{
+        font-family: "黑体";
+        font-size: 20px;
+    }
+    p[id="m2"]{
+        background-color: blue;
+    }
+    /*这是css注释*/
+</style>
+ <!-- 这是html注释 -->
+</head>
+<body>
+<!--
+<h1>h1-我的第一个 CSS 实例</h1>
+<p>p-这是一个普通段落。</p>
+<p id="m2">p-id-m2这是一个宋体段落。</p>
+<p class="m2">p-class-m2这是一个黑体段落。</p>
+<h1>h1-这是一个普通段落。</h1>
+<h1 id="m2">h1-id-m2这是一个宋体段落。</h1>
+<h1 class="m2">h1-class-m2这是一个黑体段落。</h1>
+<h2 class="m2">h2-class-m2这是一个黑体段落。</h2>
+-->
+<p style="background-color: white; color:tomato">这是一个p标签</p>
+<p style="background-color: dodgerblue; color:white">这是一个p标签</p>
+<p style="background-color: tomato; color:white">这是一个p标签: tomato</p>
+<p style="background-color: rgb(255, 99, 71); color:white">这是一个p标签: rgb(255, 99, 71)</p>
+<p style="background-color: #ff6437; color:white">这是一个p标签: #ff6437</p>
+<p style="background-color: rgb(255, 99, 71, 0.5); color:white">这是一个p标签: rgb(255, 99, 71, 0.5)</p>
+<p style="background-color: rgba(190, 77, 57); color:white; opacity: 0.5;">这是一个p标签: rgb(255, 99, 71) opacity: 0.5</p>
+<p style="border: 2px solid tomato; color:white">这是一个p标签: border: 2px solid</p>
+<p style="border: 2px dotted tomato; color:white">这是一个p标签: border: 2px solid</p>
+<p style="border: 2px dotted tomato; color:white">这是一个p标签: border: 2px solid</p>
+<p style="border: 2px groove tomato; color:white">这是一个p标签: border: 2px solid</p>
+<p style="border: 2px tomato; 
+         border-radius: 2px; 
+         color:white">这是一个p标签: border: 2px solid</p>
+<p style="border: 2px groove tomato; 
+          color:white">这是一个p标签: border: 2px solid</p>
+<p style="border-color: tomato; border-style: solid; border-width: 10px 15px 20px 25px; color:white">这是一个p标签: 10px, 20px, 30px, thin</p>
+<p style="color:dodgerblue; 
+          margin: 10px;">这是一个p标签</p>
+<p style="color:gray">这是一个p标签</a>
+<p style="color:slateblue">这是一个p标签</p>
+<p style="color:violet">这是一个p标签</p>
+<p style="color:violet">这是一个p标签</p>
+<div style="background-color: violet;">
+    <p style="color: white; 
+          margin: 30px, 30px, 30px, 30px;">这是一个标签</p>
+</div>
+<div style="background-color: violet;
+            padding: 10px, 10px, 10px, 10px;">
+    <p style="color: white; 
+              margin-top: auto;
+              background-color: black;
+              padding: 10px, 10px, 10px, 10px;">这是一个标签</p>
+</div>
+<div style="background-color: violet;
+            padding: 10px, 10px, 10px, 10px;">
+    <p style="color: white; 
+              background-color: gray;
+              padding: 10px, 10px, 10px, 10px;
+              width: auto;
+              height: inherit;
+              min-height: 40px;
+              max-width: 70%;
+              outline: 1px solid red;
+              outline-offset: 25px;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: bold;">123这是一个p标签</p>
+</div>
+
+
+
+
+</body>
+</html>
