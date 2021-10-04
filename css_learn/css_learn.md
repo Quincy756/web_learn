@@ -27,6 +27,9 @@
 - [轮廓](#轮廓)
 - [文本](#文本)
 - [字体](#字体)
+- [图标](#图标)
+- [链接](#链接)
+- [列表](#列表)
 # [五类CSS选择器](https://www.w3school.com.cn/css/css_selectors.asp)
 ## 简单选择器
 根据名称、id、类来选取元素，类名、id名不能以数字开头
@@ -256,3 +259,49 @@ outline, 轮廓与边框不同！轮廓是在元素边框之外绘制的，并�
   1em 等于当前字体大小。浏览器中的默认文本大小为 16px。因此，默认大小 1em 为 16px。
   可以使用这个公式从像素到 em 来计算大小：pixels/16=em。
   %, px
+
+# 图标
+```<i class=...> </i>```
+- Font Awesome 图标
+  ```<script src="https://kit.fontawesome.com/yourcode.js"></script>```
+- Bootstrap 图标
+  ```<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">```
+- Google 图标
+  ```<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">```
+
+# 链接
+```<a><\a>```
+- a:link  正常的，未访问的链接
+- a:visited  用户访问过的链接
+- a:hover  用户将鼠标悬停在链接上时
+- a:active  链接被点击时
+
+# 列表
+
+
+
+
+
+
+
+  无序 ```<ul> </ul>```
+  有序 ```<ol> </ol>```
+- list-style-type 属性指定列表项标记的类型, circle, square, 
+- list-style-image 属性指定列表项标记为一个图像
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
